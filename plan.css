@@ -170,11 +170,10 @@ color: #FEFCF7;
 }
 .aside{
     width: 240px;
-    height: 1777px;
     margin-right: 10%;
     margin-left: 10%;
     position: sticky;
-    top: 20px;
+    top: 0px;
 }
 .aside__div{
     display: flex;
