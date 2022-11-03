@@ -10,7 +10,9 @@ a {
     text-decoration: none;
     
 }
-
+button{
+    cursor: pointer;
+}
 .container {
     width: 1280px;
     padding: 0px auto;
@@ -174,6 +176,8 @@ color: #FEFCF7;
     margin-left: 10%;
     position: sticky;
     top: 0px;
+    background: #fff;
+    z-index: 2;
 }
 .aside__div{
     display: flex;
@@ -202,8 +206,8 @@ color: #333D4B;
 
 .main-container{
     width: 730px;
-    position: absolute;
-    top: 0px;
+    position: relative;
+    top: -350px;
     left: 500px;
 }
 .how--text{
@@ -272,4 +276,94 @@ color: aliceblue;
 .focus__p{
     color: aliceblue;
     opacity: 0.8;
+}
+.banner{
+    width: 730px;
+    height: 200px;
+    background: #2C343E;
+    padding: 31px 64px;
+    border-radius: 10px;
+}
+.banner__span{
+    
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+margin-bottom: 8px;
+}
+.banner__p{
+    
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 40px;
+color: #FFFFFF;
+width: 600px;
+
+}
+p span{
+    color: #0E8784;
+       
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 40px;
+}
+
+.intro--btn {
+    position: relative;
+    left: 500px;
+    margin-top: 40px;
+    border: none;
+    width: 220px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    background: #0E8784;
+    color: #FEFCF7;
+    border-radius: 6px;
+}
+
+.footer--container{
+    height: 120px;
+    background-color: #000;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer--img{  
+    margin-left: 85px;
+width: 200px;
+height: 24px;
+}
+.footer--imgs{
+    margin-right: 85px;
+    display: flex;
+    gap: 25px;
+}
+.footer--list{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+.footer--list li a{
+ color: #83888F;
 }
