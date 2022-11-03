@@ -344,7 +344,7 @@ line-height: 40px;
 
 .footer--container{
     height: 120px;
-    background-color: #000;
+    background-color: #2C343E;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -366,4 +366,7 @@ height: 24px;
 }
 .footer--list li a{
  color: #83888F;
+}
+.footer--list li a:hover{
+    color: #fff;
 }
