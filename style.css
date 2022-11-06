@@ -371,6 +371,8 @@ a {
 @media only screen and (max-width: 780px) {
     .container {
         width: 689px;
+        margin: 0 auto;
+        padding: 0 auto;
     }
 
     .intro {
